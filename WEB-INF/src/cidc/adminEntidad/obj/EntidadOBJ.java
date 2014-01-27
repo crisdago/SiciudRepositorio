@@ -16,7 +16,14 @@ public class EntidadOBJ implements Serializable {
 	private float aporte;
 	private String fecha= null;
 	private String[] telefonos = null;
+	private String hola;
 	
+	public String getHola() {
+		return hola;
+	}
+	public void setHola(String hola) {
+		this.hola = hola;
+	}
 	public int getId() {
 		return id;
 	}
